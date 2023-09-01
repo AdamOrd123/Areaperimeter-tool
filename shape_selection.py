@@ -8,7 +8,7 @@ def valid_shape(question):
       print(error)
 
     if shape_selected in shape_list:
-      print("You have selecte:{}".format(shape_selected))
+      print("You have selected:{}".format(shape_selected))
     else:
       print(error)
 
