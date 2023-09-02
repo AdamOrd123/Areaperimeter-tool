@@ -1,3 +1,4 @@
+#checks that the user has entered a valid unit
 def valid_unit(question):
   error = ("Error, you must enter a valid, metric unit (m, cm, mm)")
   while True:
@@ -13,4 +14,5 @@ def valid_unit(question):
 
 units = ["millimetres", "centimetres", "metres", "m", "cm", "mm"]
 
+#asks the user to choose a unit
 valid_unit("Pick a unit: metres, centimetres, millimetres: ")

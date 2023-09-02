@@ -15,6 +15,7 @@ def valid_shape(question):
 
 shape_list = ["square", "rectangle", "circle", "triangle", "parallelogram"]
 
+#asks the user to select a shape from the list
 valid_shape("""Select the shape you would like to know the 
 perimeter and area for: square, rectangle, triangle, circle or parallelogram 
 """)

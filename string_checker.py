@@ -1,3 +1,4 @@
+#ensures user enters a valid response (y/n)
 def string_check(question):
   while True:
     error = "You must enter yes/y or no/n"
@@ -14,5 +15,5 @@ def string_check(question):
       print(error)
 
 
-
+# asks the user if they would like instructions
 string_check("Would you like to see the instructions? y/n ")
