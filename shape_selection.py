@@ -3,7 +3,7 @@ def valid_shape(question):
   error = ("Error, please enter square, rectangle, circle, triangle or  parallelogram")
   while True:
     try:
-      shape_selected = input(question)
+      shape_selected = input(question).strip().lower()
     except ValueError:
       print(error)
 

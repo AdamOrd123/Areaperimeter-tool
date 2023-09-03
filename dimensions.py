@@ -21,6 +21,7 @@ def dimensions(question):
     
       else:
         b = int(input("What is the length of the base? "))
+        h = int(input("What is the height? "))
         s = int(input("What is the length of one of the sides? "))
   
     except ValueError:
