@@ -3,6 +3,7 @@ def calculator(question):
   #error incase one of the values is equal to or less than 0
   zero_error = ("Error, the height and all sides of a shape must be more than zero")
   
+  
   Area_list = ["w*l", "w*w", "0.5b*h", "2*3.14*(r*r)", "h*b"]
   Perimeter_list = ["2w+2l", "4w", "2b+2s", "a+b+c", "2*3.14*r"]
   a = 0
@@ -62,9 +63,9 @@ def calculator(question):
     else:
       lowest_number = c
 
-    if lowest_number <= h and not (b == 0 or h == 0 or a == 0 or c == 0):
+    if lowest_number <= h and not (b <= 0 or h <= 0 or a <= 0 or c <= 0):
       size_error = "true"
-    elif b == 0 or h == 0 or a == 0 or c == 0:
+    elif b <= 0 or h <= 0 or a <= 0 or c <= 0:
       size_error = "zero"
     else:
       size_error = "false"
@@ -122,7 +123,7 @@ def calculator(question):
     perimeter = format(Perimeter_list[2], ".2f")
     area = format(Area_list[4], ".2f")
     if size_error == "true":
-      print("The height of a parallelogram must be smaller than the      length of one side")
+      print("The height of a parallelogram must be smaller than the length of one side")
     elif size_error == "zero":
       print("")
     else:

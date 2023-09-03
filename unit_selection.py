@@ -15,4 +15,4 @@ def valid_unit(question):
 units = ["millimetres", "centimetres", "metres", "m", "cm", "mm"]
 
 #asks the user to choose a unit
-valid_unit("Pick a unit: metres, centimetres, millimetres: ")
+valid_unit("Pick a unit: metres, centimetres or millimetres: ")
