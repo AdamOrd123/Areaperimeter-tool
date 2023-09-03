@@ -1,6 +1,6 @@
 #selects the correct equation for the shape
 def equation_selector(question):
-  Area_list = ["w*l", "w*w", "0.5b*h", "2*3.14*(r*r)", "s*b"]
+  Area_list = ["w*l", "w*w", "0.5b*h", "2*3.14*(r*r)", "h*b"]
   Perimeter_list = ["2w+2l", "4w", "2b+2s", "a+b+c", "2*3.14*r"]
   
   
